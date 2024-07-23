@@ -27,7 +27,8 @@ abstract class MotorBike {
     }
   }
 
-//Abstract classes cannot be instantiated
+//Abstract classes cannot be instantiated->Objects cannot be created from an abstract class
+//An abstract method lacks implementation/body
 //Abstract classes can have both regular and abstract methods
 //Can also have constructors which can be accessed using the super keyword
 //Abstraction is an important concept of object-oriented programming 
@@ -35,3 +36,4 @@ abstract class MotorBike {
 //In the above implementation,te brake method() cannot be implemented inside MotorBike
 //Every bike has its won implementation of brakes
 //All subclasses of MotorBike will have different implementation of brake() method
+//
